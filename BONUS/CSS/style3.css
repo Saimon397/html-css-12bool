@@ -1,0 +1,58 @@
+:root {
+    --white: white;
+    --grey: rgb(235, 236, 240);
+}
+
+.debug {
+    min-height: 100px;
+}
+
+.b-top {
+    border-top: 1px solid darkgray;
+}
+
+.b-right {
+    border-right: 1px solid darkgray;
+}
+
+.b-left {
+    border-left: 1px solid darkgray;
+}
+
+.b-bottom {
+    border-bottom: 1px solid darkgray;
+}
+
+.m-top {
+    margin-top: 70px !important;
+}
+
+.p-container {
+    border: 8px solid black;
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.grey {
+    background-color: var(--grey);
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+    top: 95px;
+    bottom: 100px;
+    left: 475px;
+    right: 100px;
+}
+
+.image img {
+    width: 230px;
+    height: 210px;
+
+}
