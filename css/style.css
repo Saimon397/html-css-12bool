@@ -12,6 +12,10 @@
     padding: 10px;
 }
 
+.margin{
+    margin-bottom:20px;
+}
+
 .blue {
     background-color: var(--blue);
     color: var(--white);
